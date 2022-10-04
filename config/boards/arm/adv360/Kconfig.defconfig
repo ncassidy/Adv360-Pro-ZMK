@@ -46,9 +46,6 @@ config USB_NRFX
 
 config USB_DEVICE_STACK
 	default y
-
-config ZMK_SLEEP
-	default n
 	
 config ZMK_IDLE_SLEEP_TIMEOUT
 	default 3600000

@@ -46,22 +46,6 @@ config USB_NRFX
 
 config USB_DEVICE_STACK
 	default y
-	
-config ZMK_IDLE_SLEEP_TIMEOUT
-	default 3600000
-	
-if ZMK_BACKLIGHT
-
-config ZMK_BACKLIGHT_ON_START
-	default y
-
-config ZMK_BACKLIGHT_BRT_START
-	default 80
-
-config ZMK_BACKLIGHT_AUTO_OFF_IDLE
-	default n
-
-endif # ZMK_BACKLIGHT
 
 endif # USB
 

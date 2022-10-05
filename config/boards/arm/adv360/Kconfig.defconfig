@@ -40,6 +40,7 @@ config ZMK_USB
 	default y
 	
 config BACKLIGHT_AUTO_OFF_IDLE
+	bool
 	default n
 
 if USB

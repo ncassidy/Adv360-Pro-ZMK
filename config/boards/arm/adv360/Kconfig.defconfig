@@ -38,6 +38,9 @@ config ZMK_BLE
 
 config ZMK_USB
 	default y
+	
+config BACKLIGHT_AUTO_OFF_IDLE
+	default n
 
 if USB
 
